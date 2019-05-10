@@ -7,5 +7,5 @@ def my_collect(collection)
       yield new << collection[i]
       i += 1
     end
-    return collection
+    return new
 end
